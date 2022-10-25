@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions@v3
     - name: Build the Docker image
-      run: docker build -f ./project/Dockerfile --tag my-image-name:$(date +%s) .
+      run: docker build -f task3/project/Dockerfile --tag my-image-name:$(date +%s) .
